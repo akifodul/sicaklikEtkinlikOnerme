@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Lütfen sıcaklık değerini giriniz: ");
         double sicaklik = input.nextDouble();
 
@@ -15,6 +15,8 @@ public class Main {
             System.out.println("Piknik etkinliğini öneririm.");
         } else {
             System.out.println("Yüzme etkinliğini öneririm.");
+
+
         }
     }
 }
